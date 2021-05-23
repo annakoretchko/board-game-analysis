@@ -673,12 +673,7 @@ var leg_title = question3Dsvg.append("text")
                             .attr("y",515)
                             .text("BoardGameGeek Rank")
 
-// adding that little George P. Burdell signet
-var gt_username = question3Dsvg.append("text")
-                                .attr("x",1000)
-                                .attr("y",575)
-                                .attr("font-family", "sans-serif") 
-                                .text("akoretchko3")
+
 
 
 // el fin de numero cautro....in reality part 3.c-2

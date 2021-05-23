@@ -89,14 +89,7 @@ d3.dsv(",", "board_games.csv", function(d) {
   var svg = d3.select("body").append("svg")
       .attr("width", width)
       .attr("height", height);
-    
-  //GT username 
-  svg.append("text")
-          .attr("x", width-175)  
-          .attr("y", 20)
-          .attr("font-size", "8px")
-          .attr("font-family", "Sans serif")
-          .text("akoretchko3");
+
 
   // add the links
   var path = svg.append("g")

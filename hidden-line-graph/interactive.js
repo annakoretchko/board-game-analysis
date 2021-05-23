@@ -295,12 +295,6 @@ var title_chart = q4Lines.append("text")
         .attr("font-family", "sans-serif") 
         .style("text-anchor", "middle");
 
-// adding that little George P. Burdell signet
-var gt_username = q4.append("text")
-                                .attr("x",width/2)
-                                .attr("y",-20)
-                                .attr("font-family", "sans-serif") 
-                                .text("akoretchko3")
 
 
 
