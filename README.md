@@ -27,7 +27,7 @@
 <br />
 
 <p align="center">
-  <a href="https://anna-koretchko.ue.r.appspot.com/garmin">
+  <a href="https://anna-koretchko.ue.r.appspot.com/graph">
     <img src="images/network_graph.png" alt="Logo" width="800" height="500">
   </a>
 
@@ -70,15 +70,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p align="center">
-<img src="images/Garmin-logo2.jpeg" alt="Logo"> 
-</p>
+
 My family is extremely competitive and loves to play board games. I wanted to work on some of my interactive data visualization skills and decided to use board game data as inspiration. These graphs illustrate various ways in whcih data can be analyzed, presented, and shared!
 
 
 This repo is the source code for the interactive graphs. If you wish to run locally, you will need to run a local host server in the local folder location of where you have downloaded this code. 
 
-* Click [here] for instructions on how to run locally (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
+* [For instructions on how to run locally] (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
+
 
 ### Built With
 
@@ -97,8 +96,16 @@ This repo is the source code for the interactive graphs. If you wish to run loca
 
 
   <a href="https://anna-koretchko.ue.r.appspot.com/graph">
-    <img src="images/network_graph.png" alt="Logo" width="800" height="500">Click Here for Demo
+    <img src="images/network_graph.png" alt="Logo" width="800" height="500">
   </a>
+
+  <a href="https://anna-koretchko.ue.r.appspot.com/graph">
+    <Click here for interactive Demo>
+  </a>
+
+  <p>
+      Click <a href="https://anna-koretchko.ue.r.appspot.com/graph">here</a> for interative demo!
+  </p>
 
 ### Installation and Example Run
 
