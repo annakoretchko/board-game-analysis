@@ -28,20 +28,14 @@
 
 <p align="center">
   <a href="https://anna-koretchko.ue.r.appspot.com/garmin">
-    <img src="images/garmin.png" alt="Logo" width="800" height="500">
+    <img src="images/network_graph.png" alt="Logo" width="800" height="500">
   </a>
 
   <h3 align="center">Board Game Analysis</h3>
 
   <p align="center">
     Analyzing Board Game Data while Practicing Data Visualization and Interactive Graphs
-    <br />
-    <a href="https://connect.garmin.com/"><strong>Garmin Connect »</strong></a>
-    <br />
-    <br />
-    <a href="/dist/garmin_analysis-0.1-py3-none-any.whl">Latest Package</a>
-    ·
-    <a href="https://anna-koretchko.ue.r.appspot.com/garmin">Demo</a>
+
 
   </p>
 </p>
@@ -102,8 +96,8 @@ This repo is the source code for the interactive graphs. If you wish to run loca
 ### Network Graph
 
 
-  <a href="https://anna-koretchko.ue.r.appspot.com/garmin">
-    <img src="images/network_graph.png" alt="Logo" width="800" height="500">
+  <a href="https://anna-koretchko.ue.r.appspot.com/graph">
+    <img src="images/network_graph.png" alt="Logo" width="800" height="500">Click Here for Demo
   </a>
 
 ### Installation and Example Run
