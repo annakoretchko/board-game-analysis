@@ -56,7 +56,6 @@
       <a href="#getting-started">Interactive Demos</a>
       <ul>
         <li><a href="#prerequisites">Network Graph</a></li>
-        <li><a href="#installation">Multiple Line Graphs</a></li>
         <li><a href="#installation">Stacked Line Graphs</a></li>
         <li><a href="#installation">Choropleth Map</a></li>
       </ul>
@@ -76,7 +75,7 @@ My family is extremely competitive and loves to play board games. I wanted to wo
 
 This repo is the source code for the interactive graphs. If you wish to run locally, you will need to run a local host server in the local folder location of where you have downloaded this code. 
 
-* [For instructions on how to run locally] (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
+* For instructions on how to run locally, click [here] (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 
 
 ### Built With
@@ -107,24 +106,35 @@ This repo is the source code for the interactive graphs. If you wish to run loca
       Click <a href="https://anna-koretchko.ue.r.appspot.com/graph">here</a> for interative demo!
   </p>
 
-### Installation and Example Run
 
-1. Create conda environment for garmin_analyis project ([install conda Here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
-2. Downdload lastest wheel (whl) from from the dist folder [here] (/dist/garmin_analysis-0.1-py3-none-any.whl)
 
-3. cd to the downloaded wheel file
-   ```sh
-   (garmin_env) cd Downloads/garmin_analysis-0.X-py3-none-any.whl
-   ```
-4. pip install `garmin_analysis-0.X-py3-none-any.whl` to your newly created conda environment
-   ```sh
-   (garmin_env) pip install garmin_analysis-0.X-py3-none-any.whl
-   ```
-5. Now run the package which requires two inputs: -data and -output_path 
-    ```sh
-    (garmin_env) python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
-    ```
+
+### Stacked Line Graphs
+
+
+  <a href="https://anna-koretchko.ue.r.appspot.com/interactive">
+    <img src="images/interactive.png" alt="Logo" width="800" height="500">
+  </a>
+
+
+  <p>
+      Click <a href="https://anna-koretchko.ue.r.appspot.com/interactive">here</a> for interative demo!
+  </p>
+
+
+### Choropleth Map
+
+
+  <a href="https://anna-koretchko.ue.r.appspot.com/choropleth">
+    <img src="images/choropleth.png" alt="Logo" width="800" height="500">
+  </a>
+
+
+  <p>
+      Click <a href="https://anna-koretchko.ue.r.appspot.com/choropleth">here</a> for interative demo!
+  </p>
+
 
 
 
