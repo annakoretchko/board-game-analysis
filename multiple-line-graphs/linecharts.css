@@ -1,0 +1,25 @@
+.axis text
+{
+    fill: black;
+    font-size: 150%;
+}
+
+.axis path
+{
+    stroke: black;
+}
+
+.axis line
+{
+    stroke: black;
+}
+
+path
+{
+    fill: none;
+    stroke: #ed3700;
+}
+
+@media print {
+    .pagebreak { page-break-after: always; }
+}

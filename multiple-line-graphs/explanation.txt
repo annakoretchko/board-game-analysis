@@ -1,0 +1,1 @@
+Nonlinear methods are used since the scale gives equal weight to relative changes using percentage of change to plot points not equidistantly whereas linear has an equal distance between values. These assume that the data is not normally distributed and thus transform he data to more accurately illustrate the data.
