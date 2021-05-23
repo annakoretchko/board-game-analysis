@@ -31,10 +31,10 @@
     <img src="images/garmin.png" alt="Logo" width="800" height="500">
   </a>
 
-  <h3 align="center">Garmin Running Analysis</h3>
+  <h3 align="center">Board Game Analysis</h3>
 
   <p align="center">
-    Quuck package created to analyze data from Garmin Connect
+    Analyzing Board Game Data while Practicing Data Visualization and Interactive Graphs
     <br />
     <a href="https://connect.garmin.com/"><strong>Garmin Connect »</strong></a>
     <br />
@@ -59,13 +59,14 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Interactive Demos</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Network Graph</a></li>
+        <li><a href="#installation">Multiple Line Graphs</a></li>
+        <li><a href="#installation">Stacked Line Graphs</a></li>
+        <li><a href="#installation">Choropleth Map</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -78,31 +79,32 @@
 <p align="center">
 <img src="images/Garmin-logo2.jpeg" alt="Logo"> 
 </p>
-I am an avid running and love using my Garmin Forerunner 945 to collect all the data available while I run. Over the past 8 years, I have accumulated quite a large amount of data. I created this python package for anyone to analyse their Garmin Data from the Garmin Connect site and gain deeper understanding about their running analytics!
+My family is extremely competitive and loves to play board games. I wanted to work on some of my interactive data visualization skills and decided to use board game data as inspiration. These graphs illustrate various ways in whcih data can be analyzed, presented, and shared!
 
 
-* If you wanna try on your own but don't have a Garmin account, feel free to use the data in the demo-data folder!
+This repo is the source code for the interactive graphs. If you wish to run locally, you will need to run a local host server in the local folder location of where you have downloaded this code. 
 
-
+* Click [here] for instructions on how to run locally (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Python](https://www.python.org/)
+* [D3](https://d3js.org/)
+* HTML
+* CSS
+* JS
 
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Interactive Demos
 
-### Prerequisites
+### Network Graph
 
-Python is the only requirement for this project (however, enviroment managers such as conda are greatly suggested as well)
-* python
-  ```sh
-  sudo apt-get install python3.6
-  ```
+
+  <a href="https://anna-koretchko.ue.r.appspot.com/garmin">
+    <img src="images/network_graph.png" alt="Logo" width="800" height="500">
+  </a>
 
 ### Installation and Example Run
 
@@ -122,12 +124,6 @@ Python is the only requirement for this project (however, enviroment managers su
     ```sh
     (garmin_env) python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
     ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-This packages allows Garmin Connect users to analyize their data in a pythonic manner, which can be extrapolated further into a myriad of projects! 
-_To see a live demo of the graphs/outputs, please refer to the [Demo](https://anna-koretchko.ue.r.appspot.com/garmin)_
 
 
 
